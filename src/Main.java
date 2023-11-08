@@ -28,5 +28,6 @@ public class Main {
             s+=array[i];
         System.out.println();
         System.out.println(s);
+        System.out.println("hui");
     }
 }
