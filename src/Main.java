@@ -30,5 +30,6 @@ public class Main {
         System.out.println(s);
         System.out.println("hui");
         System.out.println("pizda");
+        System.out.println("jopa");
     }
 }
