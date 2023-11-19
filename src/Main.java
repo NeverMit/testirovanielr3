@@ -10,7 +10,7 @@ public class Main {
         else {
             System.out.println("Введите количество вопросов, которые выучил студент");
             int b=scanner.nextInt();
-            if(a<b) {
+            if(a<b||b<=0) {
                 System.out.println("Недопустимое значение");
             }
             else {
