@@ -13,7 +13,7 @@ public class Main {
             if(a<b) {
                 System.out.println("Недопустимое значение");
             }
-            else if(a>=b){
+            else {
                 if(b>=0.9*a) System.out.println("Студент сдал на 5");
                 else if(b>=0.75*a) System.out.println("Студент сдал на 4");
                 else if(b<0.75*a&&b>=0.5*a) System.out.println("Студент сдал на 3");
